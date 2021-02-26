@@ -9,7 +9,7 @@
 **Solution**: Do exploratory data analysis and focus on key aspects of understanding who the user is and how they use the app 
 
 ## Data analysis process:
-- data cleaning and feature engineering
+- [data cleaning and feature engineering](###data-clean-feature-eng)
 - data visualization
 - discussion with client on what aspects they were most interested in to focus on: analysis of previously-run campaign where a specific product was offered, in hopes of increasing user conversion
 - determination of optimal pricing for different markets
