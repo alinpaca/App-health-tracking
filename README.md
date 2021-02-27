@@ -12,7 +12,7 @@
 - [data cleaning and feature engineering](#data-clean-feature-eng)
 - [data visualization](#data-viz)
 - discussion with client on what aspects they were most interested in to focus on: analysis of previously-run campaign where a specific product was offered, in hopes of increasing user conversion
-- determination of [optimal pricing](#opt-price) for different markets
+- determination of [optimal product pricing](#opt-price) for different markets
 - [testing sampling techniques on imbalanced dataset](#test-techniques) to determine if we could predict which user would subscribe (shortcut to answer: we could not do this given the data sparsity and lack of features that would indicate a positive or negative result)
 
 
@@ -32,6 +32,8 @@ Dataset:
 
 ### <a name="data-viz"></a>Data visualization
 
-### <a name="opt-price"></a>Optimal Pricing for different markets
+### <a name="opt-price"></a>Optimal product pricing for different markets
+
+App developer offered a product "Q" at different price points to users
 
 ### <a name="test-techniques"></a>Predict user subscription? (No, mostly an exercise to test sampling techniques on imbalanced dataset)
