@@ -30,7 +30,13 @@ Dataset:
   <img src='Images/dataset_viz.png'>
 </figure>
 
-- immediate interest in who is paying for the app
+During exploratory data analysis, we were interested to see if there were any indications on who was paying for the app. 
+
+<figure>
+  <figcaption>iOS device users are 6x more likely to subscribe to the app than Android users</figcaption>
+  <img src='Images/platform_pivot.png'>
+</figure>
+
 - pivot tables to see trends - no strong trends across all users
 - age, gender, device type android/iphone, goals, target weight
 - android vs iphone user (N-1 2 proportion test for statistical significance)
