@@ -23,19 +23,27 @@ Brief background on this mobile app:
 - typical use case: user eats a food/meal, inputs the food into the app, and app logs the food and tracks caloric and macronutrient data from online databases
 
 Dataset:
-- ~ 900,000 rows across 59 features
+- ~ 900,000 rows across 59 features, which can be categorized into "device" features and "human user" features
 
 <figure>
   <figcaption>Visualization of complete and missing entries in dataset (purple: complete, yellow: missing)</figcaption>
   <img src='Images/dataset_viz.png'>
 </figure>
 
-During exploratory data analysis, we were interested to see if there were any indications on who was paying for the app. 
+During exploratory data analysis, we were interested to see if there were any indications on who was paying for the app. We first look at the device-related features, then user-related features.
+
+One feature showing a large signal was "Platform", Android or iOS device. iOS device users are 6x more likely to subscribe to the app than Android users, with conversion rates of 1.8% and 0.33% respectively. Performing a statistical hypothesis test with the number of observations and number of converted users in each group (Android vs iOS) indeed shows that the conversion rates of these two groups are not equal.
 
 <figure>
-  <figcaption>iOS device users are 6x more likely to subscribe to the app than Android users</figcaption>
+  <figcaption>iOS users 6x more likely to subscribe to the app than Android users</figcaption>
   <img src='Images/platform_pivot.png'>
 </figure>
+
+Which type of users were more likely to subscribe to the app?
+- **iOS users** were <span style="color:blue">some 6x text</span> more likely than Android users (feature: "Platform")
+- **users who were offered a free trial** with full access to app features were 3x more likely than users not offered any trial
+
+
 
 - pivot tables to see trends - no strong trends across all users
 - age, gender, device type android/iphone, goals, target weight
