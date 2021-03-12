@@ -34,7 +34,7 @@ During exploratory data analysis, we were interested to see if there were any in
 
 <figure>
   <figcaption>iOS device users are 6x more likely to subscribe to the app than Android users</figcaption>
-  <img src='Images/platform_pivot2.png'>
+  <img src='Images/platform_pivot.png'>
 </figure>
 
 - pivot tables to see trends - no strong trends across all users
