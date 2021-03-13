@@ -6,7 +6,9 @@
 
 **Challenge**: Small dataset and data quality
 
-**Solution**: Do exploratory data analysis with focus on key aspects of understanding who the user is and how they use the app 
+**Solution**: Do exploratory data analysis with focus on key aspects of understanding who the user is and how they use the app
+
+**Result**: Certain users were more likely to subscribe: [iOS users](#iOS-users), users who were offered a [free trial](#offer-free), and those from specific countries (US, UK, etc).
 
 ## Data analysis process:
 - [data cleaning and feature engineering](#data-clean-feature-eng)
@@ -32,17 +34,17 @@ Dataset:
 
 During exploratory data analysis, we were interested to see if there were any indications on who was paying for the app. We first look at the device-related features, then user-related features.
 
-One feature showing a large signal was "Platform", Android or iOS device. iOS device users are 6x more likely to subscribe to the app than Android users, with conversion rates of 1.8% and 0.33% respectively. Performing a statistical hypothesis test with the number of observations and number of converted users in each group (Android vs iOS) indeed shows that the conversion rates of these two groups are not equal.
+<a name="iOS-users"></a> One feature showing a large signal was "Platform", Android or iOS device. iOS device users are 6x more likely to subscribe to the app than Android users, with conversion rates of 1.8% and 0.33% respectively. Performing a statistical hypothesis test with the number of observations and number of converted users in each group (Android vs iOS) indeed shows that the conversion rates of these two groups are not equal.
 
 <figure>
   <figcaption>iOS users 6x more likely to subscribe to the app than Android users</figcaption>
   <img src='Images/platform_pivot.png'>
 </figure>
 
-Which type of users were more likely to subscribe to the app?
-- **iOS users** were <span style="color:blue">some 6x text</span> more likely than Android users (feature: "Platform")
-- **users who were offered a free trial** with full access to app features were 3x more likely than users not offered any trial
-
+Which type of users were more likely to subscribe to the app? <a name="offer-free"></a>
+- **iOS users** were **6x** more likely than Android users (feature: "Platform")
+- **users who were offered a free trial** with full access to app features were **3x** more likely than users not offered any trial
+- 
 
 
 - pivot tables to see trends - no strong trends across all users
