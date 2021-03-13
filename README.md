@@ -8,7 +8,7 @@
 
 **Solution**: Do exploratory data analysis with focus on key aspects of understanding who the user is and how they use the app
 
-**Result**: Certain users were more likely to subscribe: [iOS users](#iOS-users), users who were offered a [free trial](#offer-free), and those from specific countries (US, UK, etc).
+**Result**: Certain users were more likely to subscribe: [iOS users](#iOS-users), users who were offered a [free trial](#offer-free), and those from specific [countries](#UICulture) (US, UK, etc).
 
 ## Data analysis process:
 - [data cleaning and feature engineering](#data-clean-feature-eng)
@@ -41,17 +41,25 @@ During exploratory data analysis, we were interested to see if there were any in
   <img src='Images/platform_pivot.png'>
 </figure>
 
-Which type of users were more likely to subscribe to the app? <a name="offer-free"></a>
-- **iOS users** were **6x** more likely than Android users (feature: "Platform")
-- **users who were offered a free trial** with full access to app features were **3x** more likely than users not offered any trial
-- 
+<figure>
+  <figcaption>Users from countries with high conversion rates</figcaption>
+  <img src='Images/UICulture_pivot.png'>
+</figure>
 
+Which type of users were more likely to subscribe to the app? <a name="offer-free"></a> <a name="UICulture"></a>
+- **iOS users** were 6x more likely than Android users (feature: "Platform")
+- users who were **offered a free trial** with full access to app features were 3x more likely than users not offered any trial
+- users in the **US, Great Britain, Denmark, and Netherlands** have the highest conversion rates
+- users who **input information during signup**, such as age, gender, etc
+- users who recorded their **gender as 'male'** were 3x more likely to subscribe compared to 'female' and 'none' (no response)
 
-- pivot tables to see trends - no strong trends across all users
 - age, gender, device type android/iphone, goals, target weight
-- android vs iphone user (N-1 2 proportion test for statistical significance)
 
 ### <a name="data-viz"></a>Data visualization
+
+- plot of session count
+- plot of conversion rate over time 1-2016 thru 3-2018
+- age dist for paid vs unpaid users (remove zero from unpaid users)
 
 ### <a name="opt-price"></a>Optimal product pricing for different markets
 
