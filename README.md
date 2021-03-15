@@ -51,15 +51,29 @@ Which type of users were more likely to subscribe to the app? <a name="offer-fre
 - users who were **offered a free trial** with full access to app features were 3x more likely than users not offered any trial
 - users in the **US, Great Britain, Denmark, and Netherlands** have the highest conversion rates
 - users who **input information during signup**, such as age, gender, etc
-- users who recorded their **gender as 'male'** were 3x more likely to subscribe compared to 'female' and 'none' (no response)
+- users who recorded their **gender as 'male'** were 3x more likely to subscribe compared to 'female' and 'none'
 
 - age, gender, device type android/iphone, goals, target weight
 
 ### <a name="data-viz"></a>Data visualization
 
-- plot of session count
 - plot of conversion rate over time 1-2016 thru 3-2018
 - age dist for paid vs unpaid users (remove zero from unpaid users)
+
+<figure>
+  <figcaption>After 10 sessions, many paid users stop using the app</figcaption>
+  <img src='Images/sessions_plot.png'>
+</figure>
+
+<figure>
+  <figcaption>App downloads took off around November 2017</figcaption>
+  <img src='Images/installs_conversion_all.png'>
+</figure>
+
+By visualizing the data, we learn some interesting facts:
+- The number of sessions, where a paid user opens and logs something in the app, drops significantly, even after only 10 sessions. This could indicate a bug in data collecting or in the app itself that discourages usage. There are, however, some paid users who continue using the app. It may be interesting to look more closely at this group of users to see if anything distinguishes them from the larger group of paid users- perhaps they are early adopters.
+- App downloads really took off around November 2017. With a larger number of installs, the conversion rate also stabilized to where it is currently, ~0.2% out of all downloads.
+- Another point.
 
 ### <a name="opt-price"></a>Optimal product pricing for different markets
 
