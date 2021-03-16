@@ -38,12 +38,12 @@ During exploratory data analysis, we were interested to see if there were any in
 
 <figure>
   <figcaption>iOS users 6x more likely to subscribe to the app than Android users</figcaption>
-  <img src='Images/platform_pivot.png' width="240">
+  <img src='Images/platform_pivot.png' width="260">
 </figure>
 
 <figure>
   <figcaption>Users from countries with high conversion rates</figcaption>
-  <img src='Images/UICulture_pivot.png' width="240">
+  <img src='Images/UICulture_pivot.png' width="260">
 </figure>
 
 Which type of users were more likely to subscribe to the app? <a name="offer-free"></a> <a name="UICulture"></a>
@@ -64,17 +64,17 @@ Which type of users were more likely to subscribe to the app? <a name="offer-fre
 
 <figure>
   <figcaption>After 10 sessions, many paid users stop using the app</figcaption>
-  <img src='Images/sessions_plot.png'>
+  <img src='Images/sessions_plot.png' width="900">
 </figure>
 
 <figure>
   <figcaption>App downloads took off around November 2017</figcaption>
-  <img src='Images/installs_conversion_all.png'>
+  <img src='Images/installs_conversion_all.png' width="900">
 </figure>
 
 <figure>
   <figcaption>Age distributions of paid vs non-paid users indicate an effect on age and likelihood of subscribing</figcaption>
-  <img src='Images/paidvsnonpaidusers.png'>
+  <img src='Images/paidvsnonpaidusers.png' width="900">
 </figure>
 
 By visualizing the data, we learn some interesting facts:
