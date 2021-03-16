@@ -64,17 +64,17 @@ Which type of users were more likely to subscribe to the app? <a name="offer-fre
 
 <figure>
   <figcaption>After 10 sessions, many paid users stop using the app</figcaption>
-  <img src='Images/sessions_plot.png' width="900">
+  <img src='Images/sessions_plot.png' width="700">
 </figure>
 
 <figure>
   <figcaption>App downloads took off around November 2017</figcaption>
-  <img src='Images/installs_conversion_all.png' width="900">
+  <img src='Images/installs_conversion_all.png' width="700">
 </figure>
 
 <figure>
   <figcaption>Age distributions of paid vs non-paid users indicate an effect on age and likelihood of subscribing</figcaption>
-  <img src='Images/paidvsnonpaidusers.png' width="900">
+  <img src='Images/paidvsnonpaidusers.png' width="700">
 </figure>
 
 By visualizing the data, we learn some interesting facts:
