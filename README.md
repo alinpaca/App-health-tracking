@@ -38,12 +38,12 @@ During exploratory data analysis, we were interested to see if there were any in
 
 <figure>
   <figcaption>iOS users 6x more likely to subscribe to the app than Android users</figcaption>
-  <img src='Images/platform_pivot.png' width="120">
+  <img src='Images/platform_pivot.png' width="240">
 </figure>
 
 <figure>
   <figcaption>Users from countries with high conversion rates</figcaption>
-  <img src='Images/UICulture_pivot.png' width="180">
+  <img src='Images/UICulture_pivot.png' width="240">
 </figure>
 
 Which type of users were more likely to subscribe to the app? <a name="offer-free"></a> <a name="UICulture"></a>
