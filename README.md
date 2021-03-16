@@ -29,7 +29,7 @@ Dataset:
 
 <figure>
   <figcaption>Visualization of complete and missing entries in dataset (purple: complete, yellow: missing)</figcaption>
-  <img src='Images/dataset_viz.png' width:"120">
+  <img src='Images/dataset_viz.png'>
 </figure>
 
 During exploratory data analysis, we were interested to see if there were any indications on who was paying for the app. We first look at the device-related features, then user-related features.
@@ -38,12 +38,12 @@ During exploratory data analysis, we were interested to see if there were any in
 
 <figure>
   <figcaption>iOS users 6x more likely to subscribe to the app than Android users</figcaption>
-  <img src='Images/platform_pivot_copy.png'>
+  <img src='Images/platform_pivot_small.png'>
 </figure>
 
 <figure>
   <figcaption>Users from countries with high conversion rates</figcaption>
-  <img src='Images/UICulture_pivot.png'>
+  <img src='Images/UICulture_pivot_small.png'>
 </figure>
 
 Which type of users were more likely to subscribe to the app? <a name="offer-free"></a> <a name="UICulture"></a>
