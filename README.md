@@ -38,12 +38,12 @@ During exploratory data analysis, we were interested to see if there were any in
 
 <figure>
   <figcaption>iOS users 6x more likely to subscribe to the app than Android users</figcaption>
-  <img src='Images/platform_pivot_small.png' width="70">
+  <img src='Images/platform_pivot.png' width="120">
 </figure>
 
 <figure>
   <figcaption>Users from countries with high conversion rates</figcaption>
-  <img src='Images/UICulture_pivot_small.png'>
+  <img src='Images/UICulture_pivot.png' width="180">
 </figure>
 
 Which type of users were more likely to subscribe to the app? <a name="offer-free"></a> <a name="UICulture"></a>
@@ -64,12 +64,12 @@ Which type of users were more likely to subscribe to the app? <a name="offer-fre
 
 <figure>
   <figcaption>After 10 sessions, many paid users stop using the app</figcaption>
-  <img src='Images/sessions_plot_small.png'>
+  <img src='Images/sessions_plot.png'>
 </figure>
 
 <figure>
   <figcaption>App downloads took off around November 2017</figcaption>
-  <img src='Images/installs_conversion_all_small.png'>
+  <img src='Images/installs_conversion_all.png'>
 </figure>
 
 <figure>
