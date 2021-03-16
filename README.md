@@ -64,12 +64,12 @@ Which type of users were more likely to subscribe to the app? <a name="offer-fre
 
 <figure>
   <figcaption>After 10 sessions, many paid users stop using the app</figcaption>
-  <img src='Images/sessions_plot.png'>
+  <img src='Images/sessions_plot_small.png'>
 </figure>
 
 <figure>
   <figcaption>App downloads took off around November 2017</figcaption>
-  <img src='Images/installs_conversion_all.png'>
+  <img src='Images/installs_conversion_all_small.png'>
 </figure>
 
 <figure>
