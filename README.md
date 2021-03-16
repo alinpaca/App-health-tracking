@@ -29,7 +29,7 @@ Dataset:
 
 <figure>
   <figcaption>Visualization of complete and missing entries in dataset (purple: complete, yellow: missing)</figcaption>
-  <img src='Images/dataset_viz.png' style="width:120px">
+  <img src='Images/dataset_viz.png' style="width:50%">
 </figure>
 
 During exploratory data analysis, we were interested to see if there were any indications on who was paying for the app. We first look at the device-related features, then user-related features.
