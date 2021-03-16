@@ -38,7 +38,7 @@ During exploratory data analysis, we were interested to see if there were any in
 
 <figure>
   <figcaption>iOS users 6x more likely to subscribe to the app than Android users</figcaption>
-  <img src='Images/platform_pivot_small.png'>
+  <img src='Images/platform_pivot_small.png' width="70">
 </figure>
 
 <figure>
