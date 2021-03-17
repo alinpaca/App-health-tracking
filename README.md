@@ -2,13 +2,13 @@
 
 **Product**: Health tracking and food journal mobile app to help users track their food intake (nutrition, calories, etc)
 
-**Opportunity**: Data from the mobile app had not been analyzed or was being used in any way. There was potential to better understand the users' needs and typical use cases, and in understanding this, would potentially be able to do targetted marketing, prioritize specific app features for development, and distinguish themselves from other apps.
+**Opportunity**: Data from the mobile app had not been analyzed or was being used. There was potential to better understand the users' needs and typical use cases, and in understanding this, would potentially be able to do targetted marketing, prioritize specific app features for development, and distinguish themselves from other apps.
 
 **Challenge**: Small dataset and whether or not relevant data exists
 
 **Solution**: Do exploratory data analysis with focus on key aspects of understanding who the user is and how they use the app
 
-**Result**: We were able to determine subsets of users that were more likely to subsribe to the app: [iOS users](#iOS-users), users who were offered a [free trial](#offer-free), and those from specific [countries](#UICulture) (US, UK, etc).
+**Result**: We were able to determine subsets of users that were more likely to subsribe to the app (or had higher conversion rates): [iOS users](#iOS-users), users who were offered a [free trial](#offer-free), and those from specific [countries](#UICulture) (US, UK, etc) and more. My client, the app developer, wanted to focus on increasing revenue by offering different price points to specific markets. We determined the [optimal price points](#opt-price) for different countries.
 
 ## Data analysis process:
 - [data cleaning and feature engineering](#data-clean-feature-eng)
@@ -54,8 +54,6 @@ Which type of users were more likely to subscribe to the app? <a name="offer-fre
 - users who recorded their **gender as 'male'** were 3x more likely to subscribe compared to 'female' and 'none'
 - users who recorded their **age** were 2.5x more likely to subscribe compared to those who did not
 - users who indicated that they wanted the app to **show meal-time reminders** were 7.5x more likely to subsribe compared to those who did not want a reminder
-
-- age, gender, device type android/iphone, goals, target weight
 
 ### <a name="data-viz"></a>Data visualization
 
